@@ -1,7 +1,7 @@
 import NavBar from "./components/navbar";
 import CssBaseline from '@mui/material/CssBaseline';
 import AboutMe from "./components/aboutme";
-import Applications from "./components/applications";
+import Applications from "./components/applis.js/applications";
 
 function App() {
   return (
