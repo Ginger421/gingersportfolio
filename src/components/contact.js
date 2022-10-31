@@ -24,19 +24,19 @@ const Contact = () => {
 
   const handleNameBlur = () => {
     if(!formState.name){
-    setFormState({...formState, nameRequired: true, messageRequired: false})
+    setFormState({...formState, nameRequired: true, messageRequired: false, isValidEmail: false})
     }
   }
 
   const handleMessageBlur = () => {
     if(!formState.message){
-    setFormState({...formState, messageRequired: true, nameRequired: false})
+    setFormState({...formState, messageRequired: true, nameRequired: false, isValidEmail: false})
     }
   }
 
   const isValidEmail = (inputText) => {
     var testEmail =  /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
-    if(inputText.value.match(testEmail))
+    if(inputText.match(testEmail))
     {
       return true;
       } else
@@ -47,7 +47,7 @@ const Contact = () => {
     if(isValidEmail(formState.email)) {
       console.log('ok')
     } else 
-      setFormState({...formState, validEmailRequired: true})
+      setFormState({...formState, validEmailRequired: true, messageRequired: false, nameRequired: false})
     
   }
 
@@ -61,16 +61,16 @@ const Contact = () => {
         </Grid2>
     </Grid2>
 
-    <Grid2 container justifyContent="center"  marginDense variant='outlined' padding={3}>
+    <Grid2 container justifyContent="center" variant='outlined' padding={3}>
 
         <Grid2 item xs={12} md={8} lg={6} margin={2} border={1}>
         <FormControl fullWidth>
           <InputLabel htmlFor="my-input">Name</InputLabel>
           <Input 
           name="name"
-          onChange={handleInputChange}
           onBlur={handleNameBlur}
-          aria-describedby="my-helper-text" marginDense variant='outlined' />
+          onChange={handleInputChange}
+          aria-describedby="my-helper-text" variant='outlined' />
         </FormControl>
         </Grid2>
 
@@ -79,9 +79,9 @@ const Contact = () => {
           <InputLabel htmlFor="my-input">Email address</InputLabel>
           <Input 
            name="email"
-           onChange={handleInputChange}
            onBlur={handleEmailBlur}
-          aria-describedby="my-helper-text" marginDense variant='outlined' />
+           onChange={handleInputChange}
+          aria-describedby="my-helper-text" variant='outlined' />
         </FormControl>
         </Grid2>
 
@@ -99,9 +99,9 @@ const Contact = () => {
 
     </Grid2>
 
-    <Grid2 container justifyContent="center">
-      <Grid2 item xs={10} md={6} lg={3}>
-        button
+    <Grid2 container justifyContent="center" padding={3} marginBottom={4}>
+      <Grid2 item xs={8} md={4} lg={2} border={1} color="blue">
+        <Button>Submit</Button>
       </Grid2>
     </Grid2>
 
@@ -110,10 +110,10 @@ const Contact = () => {
         formState.nameRequired? <p>Field is required!</p> : ""
       }
        {
-        formState.messageRequired? <p>Email is required!</p> : ""
+        formState.messageRequired? <p>Please enter your message.</p> : ""
       }
       {
-        formState.emailRequired? <p>Please enter a valid email address!</p> : ""
+        formState.validEmailRequired? <p>Please enter a valid email address!</p> : ""
       }
 
     </Grid2>
