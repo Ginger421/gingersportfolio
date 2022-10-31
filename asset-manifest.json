@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gingersportfolio/static/css/main.4704b088.css",
+    "main.js": "/gingersportfolio/static/js/main.785275a5.js",
+    "static/media/pic.jpg": "/gingersportfolio/static/media/pic.9022bce072f1c121a794.jpg",
+    "static/media/Resume.pdf": "/gingersportfolio/static/media/Resume.b57d8104116c4fc0dd91.pdf",
+    "index.html": "/gingersportfolio/index.html",
+    "main.4704b088.css.map": "/gingersportfolio/static/css/main.4704b088.css.map",
+    "main.785275a5.js.map": "/gingersportfolio/static/js/main.785275a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4704b088.css",
+    "static/js/main.785275a5.js"
+  ]
+}
