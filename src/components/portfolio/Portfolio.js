@@ -1,6 +1,7 @@
 import React from 'react'
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 import ImgMediaCard from "./Card";
+import Box from '@mui/system/Box';
 
 const Portfolio = () => {
     let apps = [
@@ -8,7 +9,7 @@ const Portfolio = () => {
             title:"ShutterUp",
             github:"https://github.com/Ginger421/ShutterUp",
             deployed:"https://desolate-cove-27983.herokuapp.com/",
-            image:"../assets/images/shutterUp.png",
+            image:"./shutterUp.png",
         },
         {
             title:"Weather API",
@@ -44,6 +45,7 @@ const Portfolio = () => {
 
   return (
     <>
+    <Box bgcolor="#C6DDF0">
     <Grid2 container justifyContent="center">
         <h2>Portfolio</h2>
     </Grid2>
@@ -57,7 +59,7 @@ const Portfolio = () => {
             </Grid2>
                 )}
     </Grid2>
-
+    </Box>
     </>
   )
 };

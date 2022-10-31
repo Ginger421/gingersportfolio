@@ -6,6 +6,8 @@ import FormControl from '@mui/material/FormControl';
 import InputLabel from '@mui/material/InputLabel';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import Box from '@mui/material/Box';
+
 
 const Contact = () => {
 
@@ -52,7 +54,8 @@ const Contact = () => {
   }
 
   return (
-    <>Contact
+    <>
+    <Box bgcolor="#5E4955">
     <Grid2 container justifyContent="center">
         <Grid2 item>
             <h2>
@@ -118,7 +121,7 @@ const Contact = () => {
 
     </Grid2>
     
-    
+    </Box>
     </>
   )
 }

@@ -45,9 +45,7 @@ export default function ImgMediaCard({title, github, deployed, image}) {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the mussels,
-          if you like.
+          
         </Typography>
       </CardContent>
       <CardActions spacing={2}>
@@ -86,7 +84,6 @@ export default function ImgMediaCard({title, github, deployed, image}) {
         
           </Typography>
           <Typography>
-            Set aside off of the heat to let rest for 10 minutes, and then serve.
           </Typography>
         </CardContent>
       </Collapse>
