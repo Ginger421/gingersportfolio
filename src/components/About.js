@@ -4,7 +4,7 @@ import pic from './assets/images/pic.jpg'
 import Avatar from '@mui/material/Avatar';
 
 
-function AboutMe() {
+function About() {
     return (
         <Grid2 justifyContent="center" container padding={2} spacing={2}>
             <Grid2 xs={12} md={6}>
@@ -29,4 +29,4 @@ function AboutMe() {
     );
 }
 
-export default AboutMe;
+export default About;

@@ -2,7 +2,7 @@ import React from 'react'
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 import ImgMediaCard from "./Card";
 
-const Applications = () => {
+const Portfolio = () => {
     let apps = [
         {
             title:"ShutterUp",
@@ -62,4 +62,4 @@ const Applications = () => {
   )
 };
 
-export default Applications;
+export default Portfolio;

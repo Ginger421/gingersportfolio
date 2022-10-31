@@ -1,16 +1,17 @@
-import NavBar from "./components/navbar";
+import NavBar from "./components/NavBar";
 import CssBaseline from '@mui/material/CssBaseline';
-import AboutMe from "./components/aboutme";
-import Applications from "./components/applis.js/applications";
+import About from "./components/About";
+import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <>   
     <CssBaseline />
     <NavBar />
-    <AboutMe />
-    <Applications />
-
+    <About />
+    <Portfolio />
+    <Contact />
   
    
    
