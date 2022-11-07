@@ -9,7 +9,7 @@ const Portfolio = () => {
             title:"ShutterUp",
             github:"https://github.com/Ginger421/ShutterUp",
             deployed:"https://desolate-cove-27983.herokuapp.com/",
-            image:"./shutterUp.png",
+            image:"/shutetrUp.png",
         },
         {
             title:"Weather API",

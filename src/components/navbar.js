@@ -9,36 +9,49 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import Resume from "./Resume.pdf"
-
-const pages = ['Products', 'Pricing', 'Blog'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function NavBar({pageState, setPageState}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
   };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
+  const handleOpenAboutMobile = () => {
+    setPageState({...pageState, about: true, portfolio: false, resume: false, contact: false})
+  }
+
+  const handleOpenPortfolioMobile = () => {
+    setPageState({...pageState,  portfolio: true, about: false, resume: false, contact: false})
+  }
+
+  const handleOpenResumeMobile = () => {
+    setPageState({...pageState, resume: true, about: false, portfolio: false, contact: false})
+  }
+
+  const handleOpenContactMobile = () => {
+    setPageState({...pageState, contact: true, about: false, portfolio: false, resume: false})
+  }
+
   const handleOpenAbout = () => {
-    setPageState({...pageState, about: true, portfolio: false, contact: false})
+    setPageState({...pageState, about: true, portfolio: false, resume: false, contact: false})
   }
 
   const handleOpenPortfolio = () => {
-    setPageState({...pageState, portfolio: true, about: false, contact: false})
+    setPageState({...pageState, portfolio: true, about: false, resume: false, contact: false})
   }
+
+  const handleOpenResume = () => {
+    setPageState({...pageState, resume: true, about: false, portfolio: false,  contact: false})
+  }
+
   const handleOpenContact = () => {
-    setPageState({...pageState, contact: true, about: false, portfolio: false})
+    setPageState({...pageState, contact: true, about: false, portfolio: false, resume: false})
   }
 
   
@@ -95,25 +108,24 @@ function NavBar({pageState, setPageState}) {
               }}
             >
  
-                <MenuItem onClick={handleCloseNavMenu}>
+                <MenuItem onClick={handleOpenAboutMobile}>
                   <Typography textAlign="center">About</Typography>
                 </MenuItem>
 
-                <MenuItem onClick={handleCloseNavMenu}>
+                <MenuItem onClick={handleOpenPortfolioMobile}>
                   <Typography textAlign="center">Portfolio</Typography>
                 </MenuItem>
 
-                <MenuItem onClick={handleCloseNavMenu}>
+                <MenuItem onClick={handleOpenResumeMobile}>
                   <Typography textAlign="center">Resume</Typography>
                 </MenuItem>
 
-                <MenuItem onClick={handleCloseNavMenu}>
+                <MenuItem onClick={handleOpenContactMobile}>
                   <Typography textAlign="center">Contact</Typography>
                 </MenuItem>
         
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -150,7 +162,7 @@ function NavBar({pageState, setPageState}) {
 
               <a href={Resume} target="_blank">
               <Button
-                onClick={handleOpenPortfolio}
+                onClick={handleOpenResume}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                Resume
