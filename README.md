@@ -1,72 +1,35 @@
-# Getting Started with Create React App
+#gingersportfolio
+##Description
+This application is my portfolio. It was created using React and Material UI. It has an About section, Portfolio section, Contact section  and a header with a nav bar and a footer.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Repo: https://github.com/Ginger421/gingersportfolio/
+Deployed https://ginger421.github.io/gingersportfolio/ 
 
-## Available Scripts
+## Table of Contents
+* [Usage](#usage)
+* [License](#)
+* [Testing](#testing)
+* [Questions](#questions)
 
-In the project directory, you can run:
+## Usage
+1. Go to https://ginger421.github.io/gingersportfolio/ to view the page. Users can click on options in the nav bar to open different seciont of the page.
 
-### `npm start`
+Image
+![image](https://user-images.githubusercontent.com/101539821/199117283-605120dc-e0b6-4803-97e4-8017dc2e64b7.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Portfolio section 
+![image](https://user-images.githubusercontent.com/101539821/199117441-9fbb5111-5079-4efb-9933-e3856e4d02fb.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Contact section
+![image](https://user-images.githubusercontent.com/101539821/199117528-988cf31b-7d1c-479d-a69f-a45dbee9a124.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
+![image](https://user-images.githubusercontent.com/101539821/195421205-75d9058a-9528-4224-8a53-491b47f330e9.png)
 
-### `npm run build`
+## Testing 
+No testig was done on this application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-Images: open weather Photo by <a href="https://unsplash.com/@angelacompagnone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Angela Compagnone</a> on <a href="https://unsplash.com/s/photos/weather-forecast?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+## Questions
+Email: vlparker@g.cofc.edu
+GitHub: https://github.com/Ginger421
