@@ -55,7 +55,7 @@ const Contact = () => {
 
   return (
     <>
-    <Box bgcolor="#5E4955">
+    <Box bgcolor="#5E4955" height="100vh">
     <Grid2 container justifyContent="center">
         <Grid2 item>
             <h2>

@@ -31,5 +31,5 @@ Contact section
 No testig was done on this application.
 
 ## Questions
-Email: vlparker@g.cofc.edu
+Email: gingerowen0421@gmail.com
 GitHub: https://github.com/Ginger421

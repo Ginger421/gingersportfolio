@@ -1,4 +1,7 @@
 .footer {
     background-color: #F2B591ff;
     color: #0C1D3Fff;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
 }
