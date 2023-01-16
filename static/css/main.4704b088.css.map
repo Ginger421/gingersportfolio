@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.4704b088.css","mappings":"AAAA,QACI,wBAA2B,CAC3B,aACJ","sources":["components/Footer/style.css"],"sourcesContent":[".footer {\r\n    background-color: #F2B591ff;\r\n    color: #0C1D3Fff;\r\n}"],"names":[],"sourceRoot":""}
