@@ -16,7 +16,7 @@ function About() {
                 </Grid2>
                 <Grid2 xs={12} md={4} lg={3} >
                     <h1>Virginia Owen</h1>
-                    <p>Hi, I am an inquisitive and tenacious aspiring web developer. I recently earned a coding certificate for  completing the University of Denver's Full Stack Coding Boot Camo</p>
+                    <p>Web developer who recently earned a certificate for completing the University of Denver's Full Stack Coding Boot Camp. Has experience working with HTML5, CSS3, JavaScript ES6, Node.js, Express.js, SQL, MongoDB, React.js, Tailwind CSS and Bootstrap.</p>
                 </Grid2>
 
             </Grid2>
