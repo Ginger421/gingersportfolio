@@ -53,7 +53,7 @@ const Portfolio = () => {
     <Grid2 container spacing={2} padding={2}>
         {apps.map(app =>
             <Grid2 item>
-                <ImgMediaCard title={app.title} github={app.github} deployed={app.github} image={app.image}>
+                <ImgMediaCard title={app.title} github={app.github} deployed={app.deployed} image={app.image}>
 
                 </ImgMediaCard>
             </Grid2>
