@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Resume from "./Resume.pdf"
+import VirginiaOwenResume from "./VirginiaOwenResume.pdf"
 
 function NavBar({pageState, setPageState}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -160,7 +161,7 @@ function NavBar({pageState, setPageState}) {
                Portfolio
               </Button>
 
-              <a href={Resume} target="_blank">
+              <a href={VirginiaOwenResume} target="_blank">
               <Button
                 onClick={handleOpenResume}
                 sx={{ my: 2, color: 'white', display: 'block' }}

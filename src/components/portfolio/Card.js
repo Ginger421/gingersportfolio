@@ -41,8 +41,11 @@ export default function ImgMediaCard({title, github, deployed, image}) {
         component="img"
         height="194"
         image={image}
-        alt=""
+        alt="Screenshot"
       />
+
+      <image scr={image} alt= "screenshot of app"/>
+
       <CardContent>
         <Typography variant="body2" color="text.secondary">
           

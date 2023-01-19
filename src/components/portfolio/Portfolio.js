@@ -2,6 +2,7 @@ import React from 'react'
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 import ImgMediaCard from "./Card";
 import Box from '@mui/system/Box';
+import shutterUp from ".//shutterUp.png"
 
 const Portfolio = () => {
     let apps = [
@@ -9,7 +10,7 @@ const Portfolio = () => {
             title:"ShutterUp",
             github:"https://github.com/Ginger421/ShutterUp",
             deployed:"https://desolate-cove-27983.herokuapp.com/",
-            image:"/shutetrUp.png",
+            image: {shutterUp},
         },
         {
             title:"Weather API",
