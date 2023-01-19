@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/gingersportfolio/static/css/main.ea5299c9.css",
-    "main.js": "/gingersportfolio/static/js/main.d577c5c8.js",
+    "main.js": "/gingersportfolio/static/js/main.c48a86ad.js",
     "static/media/pic.jpg": "/gingersportfolio/static/media/pic.9022bce072f1c121a794.jpg",
     "static/media/Resume.pdf": "/gingersportfolio/static/media/Resume.b57d8104116c4fc0dd91.pdf",
+    "static/media/VirginiaOwenResume.pdf": "/gingersportfolio/static/media/VirginiaOwenResume.365c46daf2d59eaaf72c.pdf",
+    "static/media/shutterUp.png": "/gingersportfolio/static/media/shutterUp.1b3a5a575d2e75949fcb.png",
     "index.html": "/gingersportfolio/index.html",
     "main.ea5299c9.css.map": "/gingersportfolio/static/css/main.ea5299c9.css.map",
-    "main.d577c5c8.js.map": "/gingersportfolio/static/js/main.d577c5c8.js.map"
+    "main.c48a86ad.js.map": "/gingersportfolio/static/js/main.c48a86ad.js.map"
   },
   "entrypoints": [
     "static/css/main.ea5299c9.css",
-    "static/js/main.d577c5c8.js"
+    "static/js/main.c48a86ad.js"
   ]
 }
