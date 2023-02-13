@@ -3,6 +3,7 @@ import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 import pic from './pic.jpg'
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
+import "./assets/style.css"
 
 
 
