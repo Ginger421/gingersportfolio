@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Box from '@mui/system/Box';
-import shutterUp from './images/shutterUp.png'
+import shutterUp from './images/shutterUp2.png'
 import PortfolioCard from './Card';
+import PWGen from './images/pwgen.png'
+import shutterUpStorage from './images/shutterUpStorage.png'
 
 
 
@@ -13,7 +15,7 @@ const Portfolio = () => {
             title:"ShutterUp",
             repo:"https://github.com/Ginger421/ShutterUp",
             deployed:"https://desolate-cove-27983.herokuapp.com/",
-            image: shutterUp,
+            image: shutterUpStorage,
             id: 1,
         },
         {
@@ -27,7 +29,7 @@ const Portfolio = () => {
             title:"Password Generator",
             repo:"https://github.com/Ginger421/Password-Generator",
             deployed:"https://ginger421.github.io/Password-Generator/",
-            image:"../assets/images/GenPw_sm.png",
+            image: PWGen,
             id: 3,
         },
         {
@@ -66,7 +68,7 @@ const Portfolio = () => {
                 <PortfolioCard 
                 title={app.title} 
                 image={app.image} 
-                github={app.repo} 
+                repo={app.repo} 
                 deployed={app.deployed} 
                 id={app.id}
                 key={app.id}>
