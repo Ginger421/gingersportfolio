@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Box from '@mui/system/Box';
-import shutterUp from './images/shutterUp2.png'
 import PortfolioCard from './Card';
 import PWGen from './images/pwgen.png'
 import shutterUpStorage from './images/shutterUpStorage.png'
+import JATE from './images/JATE_w_code_sm.png'
+import weatherAPI from './images/weatherAPI.png'
 
 
 
@@ -22,7 +23,7 @@ const Portfolio = () => {
             title:"Weather API",
             repo:"https://github.com/Ginger421/weather-api",
             deployed:"https://ginger421.github.io/weather-api/",
-            image: "https://unsplash.com/photos/XSUvsYl_LrE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+            image: weatherAPI,
             id: 2,
         },
         {
@@ -36,22 +37,15 @@ const Portfolio = () => {
             title:"textEditor-19",
             repo:"https://github.com/Ginger421/textEditor-19",
             deployed:"https://texteditor1919.herokuapp.com/",
-            image:"",
+            image: JATE,
             id: 4,
-        },
-        {
-            title:"Portfolio",
-            repo:"https://github.com/Ginger421/gingersportfolio",
-            deployed:"",
-            image:"",
-            id: 5,
         },
         {
             title:"Challenge18",
             repo:"https://github.com/Ginger421/Friends-SocialMedia",
             deployed:"",
             image:"",
-            id: 6,
+            id: 5,
         }
 ]
 
