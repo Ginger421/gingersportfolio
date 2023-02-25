@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Resume from "./Resume.pdf"
 import VirginiaOwenResume from "./VirginiaOwenResume.pdf"
+import './NavBar.css'
 
 function NavBar({pageState, setPageState}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -59,7 +60,7 @@ function NavBar({pageState, setPageState}) {
 
   return (
     <AppBar position="static">
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" className='AppBar'>
         <Toolbar disableGutters>
           <Typography
             variant="h6"

@@ -1,4 +1,4 @@
-Box {
+.box {
     background: hsla(265, 53%, 29%, 1);
 
     background: linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
@@ -8,4 +8,8 @@ Box {
     background: -webkit-linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#432371", endColorstr="#FAAE7B", GradientType=1 );
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

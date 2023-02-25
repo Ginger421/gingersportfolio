@@ -12,18 +12,20 @@ import weatherAPI from './images/weatherAPI.png'
 
 const Portfolio = () => {
     const apps = [
-        {
-            title:"ShutterUp",
-            repo:"https://github.com/Ginger421/ShutterUp",
-            deployed:"https://desolate-cove-27983.herokuapp.com/",
-            image: shutterUpStorage,
-            id: 1,
-        },
+        // {
+        //     title:"ShutterUp",
+        //     repo:"https://github.com/Ginger421/ShutterUp",
+        //     deployed:"https://desolate-cove-27983.herokuapp.com/",
+        //     image: shutterUpStorage,
+        //     description:
+        //     id: 1,
+        // },
         {
             title:"Weather API",
             repo:"https://github.com/Ginger421/weather-api",
             deployed:"https://ginger421.github.io/weather-api/",
             image: weatherAPI,
+            description: "This applicatin generates a five day weather forecast for users. Technologies used: HTML, CSS, JavaScript and Bootstrap",
             id: 2,
         },
         {
@@ -31,6 +33,7 @@ const Portfolio = () => {
             repo:"https://github.com/Ginger421/Password-Generator",
             deployed:"https://ginger421.github.io/Password-Generator/",
             image: PWGen,
+            description: "This application generates a random password for users. Technologies: HTML, CSS and Javascript",
             id: 3,
         },
         {
@@ -38,15 +41,16 @@ const Portfolio = () => {
             repo:"https://github.com/Ginger421/textEditor-19",
             deployed:"https://texteditor1919.herokuapp.com/",
             image: JATE,
+            description: "This application is a text editor and can be downloaded by users. Technologies: PWA, HTML, CSS, JavaScript",
             id: 4,
         },
-        {
-            title:"Challenge18",
-            repo:"https://github.com/Ginger421/Friends-SocialMedia",
-            deployed:"",
-            image:"",
-            id: 5,
-        }
+        // {
+        //     title:"Challenge18",
+        //     repo:"https://github.com/Ginger421/Friends-SocialMedia",
+        //     deployed:"",
+        //     image:"",
+        //     id: 5,
+        // }
 ]
 
   return (
@@ -62,6 +66,7 @@ const Portfolio = () => {
                 <PortfolioCard 
                 title={app.title} 
                 image={app.image} 
+                description={app.description}
                 repo={app.repo} 
                 deployed={app.deployed} 
                 id={app.id}

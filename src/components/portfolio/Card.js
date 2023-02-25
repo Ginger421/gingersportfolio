@@ -27,7 +27,7 @@ const PortfolioCard = (props) => {
 
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          
+          {props.description}
         </Typography>
       </CardContent>
       <CardActions spacing={2}>
