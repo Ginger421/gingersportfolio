@@ -1,0 +1,45 @@
+
+/*css for the contact form*/
+
+.email-card {
+    background-image: url('./rippleOnWaterE.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.contact-p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.ul-input {
+    list-style-type: none;
+    float: left;
+}
+
+textarea {
+    float: right;
+}
+
+.email-form {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1rem;
+    margin: 1rem;
+}
+
+button {
+    margin: 1vh;
+}

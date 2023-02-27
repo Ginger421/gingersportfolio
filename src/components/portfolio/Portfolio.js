@@ -25,7 +25,7 @@ const Portfolio = () => {
             repo:"https://github.com/Ginger421/weather-api",
             deployed:"https://ginger421.github.io/weather-api/",
             image: weatherAPI,
-            description: "This applicatin generates a five day weather forecast for users. Technologies used: HTML, CSS, JavaScript and Bootstrap",
+            description: "This application generates a five day weather forecast for users. Technologies: HTML, CSS, JavaScript and Bootstrap",
             id: 2,
         },
         {
@@ -41,7 +41,7 @@ const Portfolio = () => {
             repo:"https://github.com/Ginger421/textEditor-19",
             deployed:"https://texteditor1919.herokuapp.com/",
             image: JATE,
-            description: "This application is a text editor and can be downloaded by users. Technologies: PWA, HTML, CSS, JavaScript",
+            description: "This application is a text editor and can be downloaded by users. Technologies: PWA, HTML, CSS and JavaScript",
             id: 4,
         },
         // {

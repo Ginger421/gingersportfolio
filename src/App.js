@@ -6,6 +6,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact1 from "./components/Contact1";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer/Footer";
+import './App.css'
 
 
 function App() {
