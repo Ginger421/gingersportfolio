@@ -9,9 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import Resume from "./Resume.pdf"
 import VirginiaOwenResume from "./VirginiaOwenResume.pdf"
-import './NavBar.css'
 
 function NavBar({pageState, setPageState}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -73,7 +71,7 @@ function NavBar({pageState, setPageState}) {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              //color: 'inherit',
               textDecoration: 'none',
             }}
           >
@@ -87,7 +85,7 @@ function NavBar({pageState, setPageState}) {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              //color="inherit"
             >
               <MenuIcon />
             </IconButton>
@@ -140,7 +138,7 @@ function NavBar({pageState, setPageState}) {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              //color: 'inherit',
               textDecoration: 'none',
             }}
           >
@@ -173,7 +171,7 @@ function NavBar({pageState, setPageState}) {
 
               <Button
                 onClick={handleOpenContact}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'white', display: 'block'}}
               >
                Contact 
               </Button>

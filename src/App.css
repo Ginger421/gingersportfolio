@@ -1,3 +1,46 @@
+.nav-bar {
+    background-color: #000328;
+}
+
+/*css for about page*/
+
+.name {
+    justify-content: center;
+    width: 100vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 40vh;
+    text-align: center;
+}
+
+.about-main{
+    width: 100vh;
+    display: flexbox;
+  
+}
+
+.myPic {
+    float: left;
+    margin-left: 3vh;
+    margin-top: 5vh;
+}
+
+.about-p {
+    float: right;
+    margin-right: 3vh;
+    margin-bottom: 5vh;
+}
+/*css for portfolio*/
+
+.portfolio-main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.cardCard image {
+    object-fit: contain;
+}
+
 
 /*css for the contact form*/
 
@@ -43,3 +86,5 @@ textarea {
 button {
     margin: 1vh;
 }
+
+/*end css for contact form*/

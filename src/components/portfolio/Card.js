@@ -13,15 +13,16 @@ import LinkIcon from '@mui/icons-material/Link';
 
 const PortfolioCard = (props) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 }} className="cards">
       <CardHeader
         title={props.title}
         subheader=""
       />
-      <CardMedia
+      <CardMedia className='screenshot'
         component='img'
-        height="194"
+        height="220"
         image={props.image}
+        object-fit="contain"
         alt="Screenshot"
       />
 

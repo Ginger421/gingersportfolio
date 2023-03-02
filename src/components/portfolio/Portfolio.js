@@ -4,7 +4,7 @@ import Box from '@mui/system/Box';
 import PortfolioCard from './Card';
 import PWGen from './images/pwgen.png'
 import shutterUpStorage from './images/shutterUpStorage.png'
-import JATE from './images/JATE_w_code_sm.png'
+import JATE from './images/JATE-new.png'
 import weatherAPI from './images/weatherAPI.png'
 
 
@@ -12,14 +12,14 @@ import weatherAPI from './images/weatherAPI.png'
 
 const Portfolio = () => {
     const apps = [
-        // {
-        //     title:"ShutterUp",
-        //     repo:"https://github.com/Ginger421/ShutterUp",
-        //     deployed:"https://desolate-cove-27983.herokuapp.com/",
-        //     image: shutterUpStorage,
-        //     description:
-        //     id: 1,
-        // },
+        {
+            title:"ShutterUp",
+            repo:"https://github.com/Ginger421/ShutterUp",
+            deployed:"https://desolate-cove-27983.herokuapp.com/",
+            image: shutterUpStorage,
+            description: "This application stores photos. Technologies: HTML, CSS, JavaScript, Node.js, Express.js, Handlebars.js and MySQL",
+            id: 1,
+        },
         {
             title:"Weather API",
             repo:"https://github.com/Ginger421/weather-api",
@@ -55,15 +55,16 @@ const Portfolio = () => {
 
   return (
     <>
-    <Box bgcolor="#C6DDF0">
+    <Box bgcolor="#C6DDF0" className="portfolio-main">
     <Grid2 container justifyContent="center">
         <h2>Portfolio</h2>
     </Grid2>
 
-    <Grid2 container spacing={2} padding={2}>
+    <Grid2 container spacing={3} padding={1} margin={2}
+    justifyContent="space-evenly">
         {apps.map(app =>
             <Grid2 item>
-                <PortfolioCard 
+                <PortfolioCard className="cardCard"
                 title={app.title} 
                 image={app.image} 
                 description={app.description}
