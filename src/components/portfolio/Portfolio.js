@@ -4,8 +4,8 @@ import Box from '@mui/system/Box';
 import PortfolioCard from './Card';
 import PWGen from './images/pwgen.png'
 import shutterUpStorage from './images/shutterUpStorage.png'
-import JATE from './images/JATE-new.png'
-import weatherAPI from './images/weatherAPI.png'
+import JATE from './images/JATE-new-sm2.png'
+import weatherAPI from './images/weatherAPI-bolder7-2.png'
 
 
 
@@ -15,7 +15,7 @@ const Portfolio = () => {
         {
             title:"ShutterUp",
             repo:"https://github.com/Ginger421/ShutterUp",
-            deployed:"https://desolate-cove-27983.herokuapp.com/",
+            deployed:"https://secret-ravine-41637.herokuapp.com/",
             image: shutterUpStorage,
             description: "This application stores photos. Technologies: HTML, CSS, JavaScript, Node.js, Express.js, Handlebars.js and MySQL",
             id: 1,
@@ -28,14 +28,14 @@ const Portfolio = () => {
             description: "This application generates a five day weather forecast for users. Technologies: HTML, CSS, JavaScript and Bootstrap",
             id: 2,
         },
-        {
-            title:"Password Generator",
-            repo:"https://github.com/Ginger421/Password-Generator",
-            deployed:"https://ginger421.github.io/Password-Generator/",
-            image: PWGen,
-            description: "This application generates a random password for users. Technologies: HTML, CSS and Javascript",
-            id: 3,
-        },
+        // {
+        //     title:"Password Generator",
+        //     repo:"https://github.com/Ginger421/Password-Generator",
+        //     deployed:"https://ginger421.github.io/Password-Generator/",
+        //     image: PWGen,
+        //     description: "This application generates a random password for users. Technologies: HTML, CSS and Javascript",
+        //     id: 3,
+        // },
         {
             title:"textEditor-19",
             repo:"https://github.com/Ginger421/textEditor-19",
@@ -60,7 +60,7 @@ const Portfolio = () => {
         <h2>Portfolio</h2>
     </Grid2>
 
-    <Grid2 container spacing={3} padding={1} margin={2}
+    <Grid2 container spacing={1} padding={1} margin={1} marginBottom={3}
     justifyContent="space-evenly">
         {apps.map(app =>
             <Grid2 item>

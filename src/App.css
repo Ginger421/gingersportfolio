@@ -33,12 +33,13 @@
 /*css for portfolio*/
 
 .portfolio-main {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
 }
 
 .cardCard image {
     object-fit: contain;
+    margin-bottom: 2%;
 }
 
 

@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import VirginiaOwenResume from "./VirginiaOwenResume.pdf"
+import './NavBar.css'
 
 function NavBar({pageState, setPageState}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -71,7 +72,7 @@ function NavBar({pageState, setPageState}) {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              //color: 'inherit',
+              color: 'inherit',
               textDecoration: 'none',
             }}
           >

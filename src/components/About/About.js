@@ -4,6 +4,7 @@ import pic from './pic.jpg'
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import './assets/About.css'
+import { WrapText } from "@mui/icons-material";
 
 
 function About() {
@@ -15,13 +16,13 @@ function About() {
             <h1 className="name">About Me</h1>
         </Grid2>
         
-        <Grid2  container padding={2} spacing={2} >
+        <Grid2  container padding={1} spacing={1} >
             
-            <Grid2 xs={12} md={6} className="aboutMain" >
+            <Grid2 xs={12} md={8} className="aboutMain" >
                 <Grid2 xs={12} md={4} >
                     <Avatar className="myPic" alt="Virginia Owen" src={pic} sx={{ width: 1, height: 1 }}  />
                     <p className="about-p" xs={12} md={4} lg={3} >
-                        Web developer who recently earned a certificate for completing the University of Denver's Full Stack Coding Boot Camp. Has experience working with HTML5, CSS3, JavaScript ES6, Node.js, Express.js, SQL, MongoDB, React.js, Tailwind CSS and Bootstrap.
+                        Hi and thank you for taking the time to check out my website! I recently earned a certificate for completing the University of Denver's Full Stack Coding Boot Camp. I have experience working with HTML5, CSS3, JavaScript ES6, Node.js, Express.js, SQL, MongoDB, React.js, Tailwind CSS and Bootstrap. And, most importantly, I love writing code and seeing how it renders on a web page!
                     </p>
                 </Grid2>
 
