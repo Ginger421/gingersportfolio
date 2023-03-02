@@ -1,34 +1,40 @@
-#gingersportfolio
+gingersportfolio
+
 ##Description
-This application is my portfolio. It was created using React and Material UI. It has an About section, Portfolio section, Contact section  and a header with a nav bar and a footer.
+This application is my professional portfolio. It was created using React and Material UI. It has an About section, Portfolio section, Contact section  and a header with a nav bar and a footer.
 
 Repo: https://github.com/Ginger421/gingersportfolio/
 Deployed https://ginger421.github.io/gingersportfolio/ 
 
 ## Table of Contents
 * [Usage](#usage)
-* [License](#)
+* [License](#License)
 * [Testing](#testing)
+* [Credits](#Credits)
 * [Questions](#questions)
 
 ## Usage
 1. Go to https://ginger421.github.io/gingersportfolio/ to view the page. Users can click on options in the nav bar to open different seciont of the page.
 
-Image
-![image](https://user-images.githubusercontent.com/101539821/199117283-605120dc-e0b6-4803-97e4-8017dc2e64b7.png)
+About page
+![image](https://user-images.githubusercontent.com/101539821/222552747-e6dcf30b-b228-43d7-bb36-9f3eaaa9ffd3.png)
 
-Portfolio section 
-![image](https://user-images.githubusercontent.com/101539821/199117441-9fbb5111-5079-4efb-9933-e3856e4d02fb.png)
+
+Portfolio page
+![image](https://user-images.githubusercontent.com/101539821/222552939-3462097f-7f78-41b7-aa07-4401c670551d.png)
+
+##Credits
+Background image for contact page: Photo by <a href="https://unsplash.com/@_actually_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ali Abdul Rahman</a> on <a href="https://unsplash.com/@ginger421/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
 
 Contact section
-![image](https://user-images.githubusercontent.com/101539821/199117528-988cf31b-7d1c-479d-a69f-a45dbee9a124.png)
+![image](https://user-images.githubusercontent.com/101539821/222553219-f8cc4744-927d-4eeb-b7c8-3b3f3e63a468.png)
 
 
 ## License
 ![image](https://user-images.githubusercontent.com/101539821/195421205-75d9058a-9528-4224-8a53-491b47f330e9.png)
 
-## Testing 
-No testig was done on this application.
 
 ## Questions
 Email: gingerowen0421@gmail.com
