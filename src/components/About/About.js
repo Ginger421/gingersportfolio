@@ -22,7 +22,7 @@ function About() {
                 <Grid2 xs={12} md={4} >
                     <Avatar className="myPic" alt="Virginia Owen" src={pic} sx={{ width: 1, height: 1 }}  />
                     <p className="about-p" xs={12} md={4} lg={3} >
-                        Hi and thank you for taking the time to check out my website! I recently earned a certificate for completing the University of Denver's Full Stack Coding Boot Camp. I love the magic of writing code and seeing it rendered on a web page! I have experience working with HTML5, CSS3, JavaScript ES6, Node.js, Express.js, SQL, MongoDB, React.js, Tailwind CSS and Bootstrap. 
+                        Hi and thank you for taking the time to check out my website! I recently earned a certificate for completing the University of Denver's Full Stack Coding Boot Camp. I love the magic of writing code and seeing it rendered on a web page! I recently earned a certificate for completing the University of Denver's Full Stack Coding Boot Camp. I love the magic of writing code and seeing it rendered on a web page! I have experience working with HTML5, CSS3, JavaScript ES6, Node.js, Express.js, SQL, MongoDB, React.js, Tailwind CSS and Bootstrap. 
                     </p> 
                 </Grid2>
 
