@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gingersportfolio/static/css/main.125ff63f.css",
-    "main.js": "/gingersportfolio/static/js/main.41acba86.js",
+    "main.js": "/gingersportfolio/static/js/main.25524f0c.js",
     "static/media/pic.jpg": "/gingersportfolio/static/media/pic.9022bce072f1c121a794.jpg",
     "static/media/rippleOnWaterE.jpg": "/gingersportfolio/static/media/rippleOnWaterE.2456e288f0908caaec12.jpg",
     "static/media/shutterUpStorage.png": "/gingersportfolio/static/media/shutterUpStorage.d28fb9fc7b44bd1f31d9.png",
@@ -11,10 +11,10 @@
     "static/media/VirginiaOwenResume.pdf": "/gingersportfolio/static/media/VirginiaOwenResume.365c46daf2d59eaaf72c.pdf",
     "index.html": "/gingersportfolio/index.html",
     "main.125ff63f.css.map": "/gingersportfolio/static/css/main.125ff63f.css.map",
-    "main.41acba86.js.map": "/gingersportfolio/static/js/main.41acba86.js.map"
+    "main.25524f0c.js.map": "/gingersportfolio/static/js/main.25524f0c.js.map"
   },
   "entrypoints": [
     "static/css/main.125ff63f.css",
-    "static/js/main.41acba86.js"
+    "static/js/main.25524f0c.js"
   ]
 }
