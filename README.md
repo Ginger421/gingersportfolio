@@ -14,7 +14,7 @@ Deployed https://ginger421.github.io/gingersportfolio/
 * [Questions](#questions)
 
 ## Usage
-1. Go to https://ginger421.github.io/gingersportfolio/ to view the page. Users can click on options in the nav bar to open different seciont of the page.
+1. Go to https://ginger421.github.io/gingersportfolio/ to view the page. Users can click on options in the nav bar to open different sections of the page.
 
 About page
 ![image](https://user-images.githubusercontent.com/101539821/222552747-e6dcf30b-b228-43d7-bb36-9f3eaaa9ffd3.png)
