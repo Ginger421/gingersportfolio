@@ -4,14 +4,15 @@ import VirginiaOwenResume from './VirginiaOwenResume.pdf'
 
 
 const Resume = () => {
+
   return (
     <div>
         <p>
             If you would like to know more about my training or work experience please click the button to open my resume.
         </p>
         
-        <a href='VirginiaOwenResume' target={blank}>
-            <button>View Resume</button> 
+        <a href={VirginiaOwenResume} download='VirginiaOwenResume' target='blank'>
+            <button type='button'>View Resume</button> 
         </a>
     </div>
   )
