@@ -9,7 +9,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import VirginiaOwenResume from "./VirginiaOwenResume.pdf"
 import './NavBar.css'
 
 function NavBar({pageState, setPageState}) {
@@ -161,14 +160,12 @@ function NavBar({pageState, setPageState}) {
                Portfolio
               </Button>
 
-              <a href={VirginiaOwenResume} target="_blank">
               <Button
                 onClick={handleOpenResume}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                Resume
               </Button>
-              </a>
 
               <Button
                 onClick={handleOpenContact}
@@ -186,3 +183,16 @@ function NavBar({pageState, setPageState}) {
   );
 }
 export default NavBar;
+
+
+
+
+// code for auto open resume
+// <a href={VirginiaOwenResume} target="_blank">
+//               <Button
+//                 onClick={handleOpenResume}
+//                 sx={{ my: 2, color: 'white', display: 'block' }}
+//               >
+//                Resume
+//               </Button>
+//               </a>

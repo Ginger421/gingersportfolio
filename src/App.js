@@ -3,10 +3,12 @@ import NavBar from "./components/NavBar";
 import CssBaseline from '@mui/material/CssBaseline';
 import About from "./components/About/About";
 import Portfolio from "./components/portfolio/Portfolio";
-import Contact1 from "./components/Contact1";
+import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer/Footer";
+
 import './App.css'
+
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
   const [pageState, setPageState] = useState({
     about: true,
     portfolio: false,
+    resume: false,
     contact: false
   })
   return (
@@ -25,9 +28,9 @@ function App() {
 
     {pageState.portfolio? <Portfolio /> : ""}
 
-    {pageState.contact? <Contact /> : ""}
-    
-    
+    {pageState.resume? <Resume /> : ""}
+
+    {pageState.contact? <Contact /> : ""}    
     
     <Footer />
   
