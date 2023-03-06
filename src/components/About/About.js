@@ -4,7 +4,7 @@ import pic from './pic.jpg'
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import './assets/About.css'
-import { WrapText } from "@mui/icons-material";
+//import { WrapText } from "@mui/icons-material";
 
 
 function About() {
@@ -18,7 +18,7 @@ function About() {
         
         <Grid2  container padding={1} spacing={1} justifyContent="space-evenly" flexDirection="row">
             
-            <Grid2 xs={12} md={8} className="aboutMain" >
+            <Grid2 xs={12} md={8} className="aboutMain">
                 <Grid2 xs={10} md={4} >
                     <Avatar className="myPic" alt="Virginia Owen" src={pic} sx={{ width: 1, height: 1 }}  />
                   

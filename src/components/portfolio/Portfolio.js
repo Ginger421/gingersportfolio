@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Box from '@mui/system/Box';
 import PortfolioCard from './Card';
-import PWGen from './images/pwgen.png'
 import shutterUpStorage from './images/shutterUpStorage.png'
 import JATE from './images/JATE-new-sm2.png'
 import weatherAPI from './images/weatherAPI-bolder7-2.png'

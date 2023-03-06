@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
+//import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
@@ -7,7 +7,6 @@ import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { red } from '@mui/material/colors';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkIcon from '@mui/icons-material/Link';
 
@@ -33,13 +32,13 @@ const PortfolioCard = (props) => {
       </CardContent>
       <CardActions spacing={2}>
         <IconButton>
-          <a href={props.repo} target="_blank" >
+          <a href={props.repo} rel="noreferrer" target="_blank" >
             <GitHubIcon padding={2} /> 
           </a>
         </IconButton>
 
         <IconButton>
-          <a href={props.deployed} target="_blank" >
+          <a href={props.deployed} rel="noreferrer" target="_blank" >
             <LinkIcon padding={2} /> 
           </a>
         </IconButton>
