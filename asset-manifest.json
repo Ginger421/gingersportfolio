@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/gingersportfolio/static/css/main.65c28a5c.css",
-    "main.js": "/gingersportfolio/static/js/main.5deb4b4d.js",
+    "main.js": "/gingersportfolio/static/js/main.f70204bf.js",
     "static/media/pic.jpg": "/gingersportfolio/static/media/pic.9022bce072f1c121a794.jpg",
     "static/media/rippleOnWaterE.jpg": "/gingersportfolio/static/media/rippleOnWaterE.2456e288f0908caaec12.jpg",
     "static/media/shutterUpStorage.png": "/gingersportfolio/static/media/shutterUpStorage.d28fb9fc7b44bd1f31d9.png",
-    "static/media/pwgen.png": "/gingersportfolio/static/media/pwgen.8cdaac4fcb6d706d6ab3.png",
     "static/media/weatherAPI-bolder7-2.png": "/gingersportfolio/static/media/weatherAPI-bolder7-2.f13c336e26a08763233a.png",
     "static/media/JATE-new-sm2.png": "/gingersportfolio/static/media/JATE-new-sm2.51d8f375a138c650dc44.png",
     "static/media/VirginiaOwenResume.pdf": "/gingersportfolio/static/media/VirginiaOwenResume.365c46daf2d59eaaf72c.pdf",
     "index.html": "/gingersportfolio/index.html",
     "main.65c28a5c.css.map": "/gingersportfolio/static/css/main.65c28a5c.css.map",
-    "main.5deb4b4d.js.map": "/gingersportfolio/static/js/main.5deb4b4d.js.map"
+    "main.f70204bf.js.map": "/gingersportfolio/static/js/main.f70204bf.js.map"
   },
   "entrypoints": [
     "static/css/main.65c28a5c.css",
-    "static/js/main.5deb4b4d.js"
+    "static/js/main.f70204bf.js"
   ]
 }
