@@ -29,13 +29,14 @@
 .about-p {
     float: right;
     margin-right: 3vh;
-    margin-bottom: 5vh;
+    margin-bottom: 5px;
 }
 /*css for portfolio*/
 
 .portfolio-main {
     height: 100%;
     width: 100vw;
+    margin-bottom: 3vh;
 }
 
 .cardCard image {

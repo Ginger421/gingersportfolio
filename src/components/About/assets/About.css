@@ -9,7 +9,14 @@
 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#432371", endColorstr="#FAAE7B", GradientType=1 );
 
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+   
+}
+
+.about-p {
+    
+    margin-bottom: 7px;
 }

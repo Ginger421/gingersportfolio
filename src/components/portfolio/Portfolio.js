@@ -55,7 +55,7 @@ const Portfolio = () => {
 
   return (
     <>
-    <Box bgcolor="#C6DDF0" className="portfolio-main">
+    <Box bgcolor="#C6DDF0" className="portfolio-main" marginBottom={1}>
     <Grid2 container justifyContent="center">
         <h2>Portfolio</h2>
     </Grid2>
