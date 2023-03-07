@@ -8,11 +8,11 @@ const Resume = () => {
   return (
     <div>
         <p>
-            If you would like to know more about my training or work experience please click the button to open my resume.
+            If you would like to know more about my training or work experience please click the button to download my resume.
         </p>
         
         <a href={VirginiaOwenResume} download='VirginiaOwenResume' target='blank'>
-            <button type='button'>View Resume</button> 
+            <button type='button'>Download</button> 
         </a>
     </div>
   )

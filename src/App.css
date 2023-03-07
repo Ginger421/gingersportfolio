@@ -5,32 +5,34 @@
 /*css for about page*/
 
 .name {
+    display: flexbox;
     justify-content: center;
-    width: 100vh;
+    width: 100vw;
     margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-left: 40vh;
+    margin-bottom: 5px;
+    padding-bottom: 4px;
     text-align: center;
 }
 
-.about-main{
+/* .aboutMain{
     width: 100vw;
     height: fit-content;
     display: flexbox;
   
-}
+} */
 
 .myPic {
     float: left;
     margin-left: 3vh;
     margin-top: 5vh;
-}
+} 
 
-.about-p {
+ .about-p {
     float: right;
     margin-right: 3vh;
     margin-bottom: 5px;
 }
+
 /*css for portfolio*/
 
 .portfolio-main {

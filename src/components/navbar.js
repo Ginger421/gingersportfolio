@@ -84,7 +84,7 @@ function NavBar({pageState, setPageState}) {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              //color="inherit"
+              color="inherit"
             >
               <MenuIcon />
             </IconButton>
@@ -185,13 +185,3 @@ export default NavBar;
 
 
 
-
-// code for auto open resume
-// <a href={VirginiaOwenResume} target="_blank">
-//               <Button
-//                 onClick={handleOpenResume}
-//                 sx={{ my: 2, color: 'white', display: 'block' }}
-//               >
-//                Resume
-//               </Button>
-//               </a>

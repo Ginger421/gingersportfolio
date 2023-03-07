@@ -12,11 +12,15 @@
     background-size: cover;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
    
 }
 
+.myPic {
+    display: flex;
+}
+
 .about-p {
-    
-    margin-bottom: 7px;
+ display: flex;
+
 }

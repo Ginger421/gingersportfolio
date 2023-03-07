@@ -16,7 +16,7 @@ function About() {
             <h1 className="name">About Me</h1>
         </Grid2>
         
-        <Grid2  container padding={1} spacing={1} justifyContent="space-evenly" flexDirection="row">
+        <Grid2  container padding={1} spacing={1} flexDirection="row">
             
             <Grid2 xs={12} md={8} className="aboutMain">
                 <Grid2 xs={10} md={4} >
