@@ -1,6 +1,7 @@
 gingersportfolio
 
 Description
+<br>
 This application is my professional portfolio. It was created using React and Material UI. It has an About section, Portfolio section, Contact section  and a header with a nav bar and a footer.
 
 Repo: https://github.com/Ginger421/gingersportfolio/
