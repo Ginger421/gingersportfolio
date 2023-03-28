@@ -70,15 +70,15 @@ function Contact() {
               required />
             </li>
 
-            <li className="button">
-              <button type="submit" className="--btn --btn-primary">
-                Send
-              </button>
-            </li>
+            {/* <li className="button">
+            
+            </li> */}
             
           </ul>
 
-          
+            <button type="submit" className="--btn --btn-primary">
+                Send
+              </button>
 
           <textarea 
           name="message"

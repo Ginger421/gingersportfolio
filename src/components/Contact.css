@@ -3,3 +3,17 @@ section{
     background-repeat: no-repeat;
     height: fit-content;
 }
+
+@media screen and (max-width: 419px) {
+    .email-form {
+        order: initial;
+    }
+
+    .button {
+        order: 5;
+    }
+
+    textarea {
+        order: 4;
+    }
+}
