@@ -46,6 +46,12 @@
     margin-bottom: 2%;
 }
 
+/*style for resume page*/
+
+.resume {
+    justify-content: center;
+    align-items: center;
+}
 
 /*css for the contact form*/
 
