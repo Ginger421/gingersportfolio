@@ -15,6 +15,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: right;
+    padding-bottom: 5vh;
    
 }
 
@@ -24,5 +26,6 @@
 
 .about-p {
  display: flex;
+ padding-bottom: 3vh;
 
 }
