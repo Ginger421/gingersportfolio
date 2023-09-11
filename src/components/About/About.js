@@ -12,7 +12,7 @@ function About() {
         
         <Box className="box">
 
-        <Grid2 xs={12} md={8} lg={6} >
+        <Grid2 xs={12} md={8} lg={6} className="aboutContainer">
             <h1 className="name">About Me</h1>
         </Grid2>
         
