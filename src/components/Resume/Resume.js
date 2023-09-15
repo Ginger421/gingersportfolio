@@ -11,7 +11,7 @@ const Resume = () => {
             If you would like to know more about my training or work experience please click the button to download my resume.
         </p>
         
-        <a href={VirginiaOwenResume} download='VirginiaOwenResume' target='blank'>
+        <a href={VirginiaOwenResume} download='VirginiaOwenResume' target='blank' className='download'>
             <button type='button'>Download</button> 
         </a>
     </div>

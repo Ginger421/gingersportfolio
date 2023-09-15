@@ -49,12 +49,15 @@
 /*style for resume page*/
 
 .resume {
-    padding-top: 3vh;
-    padding-left: 2vw;
+    padding-top: 10vh;
+    padding-left: 10vw;
     justify-content: center;
     align-items: center;
 }
 
+.download {
+    padding-left: 3vw;
+}
 /*css for the contact form*/
 
 .email-card {
