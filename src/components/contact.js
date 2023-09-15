@@ -38,7 +38,7 @@ function Contact() {
         
         <form ref={form}
         onSubmit={sendEmail} 
-        justifyContent="center"> 
+        justifycontent="center"> 
 
           <ul className="ul-input">
 
@@ -76,17 +76,15 @@ function Contact() {
             
           </ul>
 
-            <button type="submit" className="--btn --btn-primary">
-                Send
-              </button>
-
           <textarea 
           name="message"
           cols={40} 
           rows={20}
           required></textarea>
 
-          
+          <button type="submit" className="--btn --btn-primary">
+                Send
+              </button>
 
         </form>
 

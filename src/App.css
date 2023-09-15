@@ -49,6 +49,8 @@
 /*style for resume page*/
 
 .resume {
+    padding-top: 3vh;
+    padding-left: 2vw;
     justify-content: center;
     align-items: center;
 }
